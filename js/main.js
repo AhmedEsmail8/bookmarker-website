@@ -120,18 +120,18 @@ function getLastId(){
 function display(list) {
     var items = `<div class="col-12">
         <div class="row bg-white text-center fw-bold py-2 mt-4">
-            <div class="col-2">ID</div>
-            <div class="col-6">Website Name</div>
-            <div class="col-2">Visit</div>
-            <div class="col-2">Delete</div>
+            <div class="col-md-2 col-3">ID</div>
+            <div class="col-md-6 col-3">Website Name</div>
+            <div class="col-md-2 col-3">Visit</div>
+            <div class="col-md-2 col-3">Delete</div>
         </div>
     </div>`
     for (let i = 0; i < list.length; i++) {
         items += `<div class="col-12">
             <div class="row bg-white text-center fw-bold bookmark-item align-items-center">
-                <div class="col-2">${list[i].id}</div>
-                <div class="col-6">${list[i].name}</div>
-                <div class="col-2">
+                <div class="col-md-2 col-3">${list[i].id}</div>
+                <div class="col-md-6 col-3 website-name">${list[i].name}</div>
+                <div class="col-md-2 col-3">
                     <a href="${list[i].url}" target='_blank'>
                         <button class="btn visit">
                             <i class="fa-solid fa-eye pe-2"></i>
@@ -139,7 +139,7 @@ function display(list) {
                         </button>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-3">
                     <button class="btn btn-danger" onclick='delete_bookmark(${list[i].id})'>
                         <i class="fa-solid fa-trash-can"></i>
                         Delete

@@ -3,7 +3,7 @@ body{
 }
 
 :root{
-    font-size: 6px;
+    font-size: 10px;
 }
 
 ::selection {
@@ -47,6 +47,10 @@ body{
     background-image: linear-gradient(to right, #3ca55c 30%, #b5ac49 70%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.website-name{
+    overflow-wrap: break-word;
 }
 
 input::placeholder{

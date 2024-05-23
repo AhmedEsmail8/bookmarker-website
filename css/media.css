@@ -1,13 +1,12 @@
 /* sm */
 @media (min-width: 576px) {
-    
+    :root{
+        font-size: 14px;
+    }
 }
 
 /* md */
 @media (min-width: 768px) {
-    :root{
-        font-size: 13px;
-    }
 }
 
 /* lg */
