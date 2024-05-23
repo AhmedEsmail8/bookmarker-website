@@ -1,0 +1,117 @@
+body{
+    background-color: #F7ECDE;
+}
+
+::selection {
+    background-color: #fec260;
+    color: #352e28;
+}
+
+.body-overlay{
+    min-height: 100vh;
+}
+
+.title{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 3.125rem;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20%;
+    background-color: #FEC260;
+    z-index: -1;
+    transition: height .5s;
+}
+
+.title:hover::after{
+    height: 70%;
+}
+
+.line{
+    border-bottom: 2px #000 dotted;
+}
+
+.form-title{
+    font-family: "Righteous", cursive;
+    font-size: 1.5625rem;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input::placeholder{
+    font-weight: 500;
+}
+
+.validation-window{
+    left: 50vw;
+    top: 50vh;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+}
+
+.validation-window i{
+    font-size: 18px;
+}
+
+#valCloseBtn i{
+    font-weight: 900;
+    font-size: 28px;
+    color: #212529;
+}
+
+.validation-window h5{
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    color: #352e28;
+}
+
+.validation-window div p{
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 18px;
+    color: #212529;
+}
+
+#dataSection{
+    font-family: "PT Sans Caption", sans-serif;
+    color: #212529;
+}
+
+.bookmark-item{
+    border-top: 1px solid rgba(128, 128, 128, 0.173);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.173);
+    padding-block: 0.7rem;
+}
+
+.visit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+
+#submitBtn{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+}
+
+.form-control:focus {
+    border-color: #d99c39;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+    color: #212529;
+}
