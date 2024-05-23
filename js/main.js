@@ -69,6 +69,7 @@ submitBtn.onclick = function () {
     siteUrl.classList.remove('is-valid');
     siteName.classList.remove('is-invalid');
     siteName.classList.remove('is-valid');
+
 }
 
 
