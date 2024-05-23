@@ -2,6 +2,10 @@ body{
     background-color: #F7ECDE;
 }
 
+:root{
+    font-size: 6px;
+}
+
 ::selection {
     background-color: #fec260;
     color: #352e28;
@@ -34,7 +38,7 @@ body{
 }
 
 .line{
-    border-bottom: 2px #000 dotted;
+    border-bottom: 0.125rem #000 dotted;
 }
 
 .form-title{
@@ -55,29 +59,37 @@ input::placeholder{
 }
 
 .dot{
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .validation-window i{
-    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.vlaidation-caption h5{
+    font-size: 1.1rem !important;
+}
+
+.vlaidation-caption :not(h5){
+    font-size: 1rem !important;
 }
 
 #valCloseBtn i{
     font-weight: 900;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #212529;
 }
 
 .validation-window h5{
     font-family: "Bree Serif", serif;
-    font-size: 21px;
+    font-size: 1.3125rem;
     color: #352e28;
 }
 
 .validation-window div p{
     font-family: "PT Sans Caption", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #212529;
 }
 
@@ -87,8 +99,8 @@ input::placeholder{
 }
 
 .bookmark-item{
-    border-top: 1px solid rgba(128, 128, 128, 0.173);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.173);
+    border-top: 0.0625rem solid rgba(128, 128, 128, 0.173);
+    border-bottom: 0.0625rem solid rgba(128, 128, 128, 0.173);
     padding-block: 0.7rem;
 }
 
