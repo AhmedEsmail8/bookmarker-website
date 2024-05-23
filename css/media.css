@@ -1,12 +1,21 @@
+@media (min-width: 500px){
+    .validation-window{
+        width: 500px;
+    }
+}
+
 /* sm */
 @media (min-width: 576px) {
     :root{
         font-size: 14px;
     }
+
+    
 }
 
 /* md */
 @media (min-width: 768px) {
+
 }
 
 /* lg */

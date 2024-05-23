@@ -60,25 +60,26 @@ input::placeholder{
 .validation-window{
     left: 50vw;
     top: 50vh;
+    width: 100vw;
 }
 
 .dot{
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 20px;
+    height: 20px;
 }
 
 .validation-window i,
 .vlaidation-caption :not(h5){
-    font-size: 1.125rem !important;
+    font-size: 18px !important;
 }
 
 .vlaidation-caption h5{
-    font-size: 1.3125rem !important;
+    font-size: 21px !important;
 }
 
 #valCloseBtn i{
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 28px;
     color: #212529;
 }
 
