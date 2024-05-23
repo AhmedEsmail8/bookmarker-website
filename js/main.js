@@ -120,8 +120,8 @@ function getLastId(){
 function display(list) {
     var items = `<div class="col-12">
         <div class="row bg-white text-center fw-bold py-2 mt-4">
-            <div class="col-3">ID</div>
-            <div class="col-5">Website Name</div>
+            <div class="col-2">ID</div>
+            <div class="col-6">Website Name</div>
             <div class="col-2">Visit</div>
             <div class="col-2">Delete</div>
         </div>
@@ -129,8 +129,8 @@ function display(list) {
     for (let i = 0; i < list.length; i++) {
         items += `<div class="col-12">
             <div class="row bg-white text-center fw-bold bookmark-item align-items-center">
-                <div class="col-3">${list[i].id}</div>
-                <div class="col-5">${list[i].name}</div>
+                <div class="col-2">${list[i].id}</div>
+                <div class="col-6">${list[i].name}</div>
                 <div class="col-2">
                     <a href="${list[i].url}" target='_blank'>
                         <button class="btn visit">

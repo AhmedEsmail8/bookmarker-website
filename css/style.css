@@ -44,7 +44,7 @@ body{
 .form-title{
     font-family: "Righteous", cursive;
     font-size: 1.5625rem;
-    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-image: linear-gradient(to right, #3ca55c 30%, #b5ac49 70%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
