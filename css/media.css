@@ -5,21 +5,15 @@
 
 /* md */
 @media (min-width: 768px) {
-    
+    :root{
+        font-size: 13px;
+    }
 }
 
 /* lg */
 @media (min-width: 992px) {
     :root{
         font-size: 16px;
-    }
-
-    .vlaidation-caption h5{
-        font-size: 1.3125rem !important;
-    }
-
-    .vlaidation-caption :not(h5){
-        font-size: 1.125rem !important;
     }
 }
 

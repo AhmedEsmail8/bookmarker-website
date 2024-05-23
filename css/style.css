@@ -63,16 +63,13 @@ input::placeholder{
     height: 1.25rem;
 }
 
-.validation-window i{
-    font-size: 1.125rem;
+.validation-window i,
+.vlaidation-caption :not(h5){
+    font-size: 1.125rem !important;
 }
 
 .vlaidation-caption h5{
-    font-size: 1.1rem !important;
-}
-
-.vlaidation-caption :not(h5){
-    font-size: 1rem !important;
+    font-size: 1.3125rem !important;
 }
 
 #valCloseBtn i{
